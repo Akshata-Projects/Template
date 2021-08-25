@@ -1,0 +1,299 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 60px;
+    margin:0px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    border: 2px solid black;
+    height: 270vh;
+}
+
+
+.logo
+{
+    width: 300px;
+    height: 100px;
+   	position: absolute;
+	left: 10%;
+}
+
+.letter
+{
+    color: coral;
+}
+
+.line{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 2px;
+}
+
+.menu ul{
+    float: right;
+    width:380px;
+    line-height: 75px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu ul li a{
+	text-decoration: none;	
+    display: block;
+    color: gray;
+}
+
+.menu ul li a:hover
+{
+    background-color: coral;
+    border-radius: 50%;
+    color: white;
+    
+}
+
+
+/* Banner Section */
+.banner{
+
+    margin-top: 230px;
+    border: 2px solid black;
+    background:url('Images/bg.jpg');
+    width: 193vh;
+    height:600px;
+    margin-top: 120px !important;  /* to remove the gap between div make margin to 0*/
+    
+}
+
+.banner_img {
+   
+    margin-top: 35px;
+    height: 400px;
+}
+
+.img1{
+    width: 180px;
+    height: 400px;
+    margin-left: 123px;
+}
+
+.img2{
+
+    height: 400px;
+    width: 180px;
+}
+
+.img5{
+    height:400px;
+    width:480px;
+}
+
+.banner_text 
+{
+    /* border: 2px solid black; */
+    font-size: 30px;
+    color: white;
+    border-right: 2px solid grey;
+    margin-left: 123px;
+    width:300px;
+   
+    /* height: 120px; */
+}
+
+.banner_text2 {
+    /* border:2px solid brown; */
+    color: grey;
+    margin-right: 30px;
+    font-size: 14px;
+    width:900px;
+    margin-top: 30px;
+    float: right;
+}
+
+
+/* Article section goes here */
+.article{
+
+    border-top: 1px solid darkgrey;
+    background-color: black;
+    width: 194vh;
+    height:500px;
+    margin-top: 0px !important;  /* to remove the gap between div make margin to 0*/
+    
+}
+
+.article_img{
+
+        margin-top: 45px;
+        height: 430px;
+}
+
+.article_img h3{
+    color: white;
+    font-size: 25px;
+    margin-left: 123px;
+}
+
+.art_img1
+{
+    height: 200px;
+    width: 300px;
+    margin-left: 123px;
+}
+
+.art_img2
+{
+    height: 200px;
+    width: 300px;
+    
+    
+}
+
+label{
+    height: 30px;
+    width: 100px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    float: left;
+    margin-top: 15px;
+}
+
+.img_text{
+    
+    height: 370px;
+    width: 450px;
+    float: left;
+}
+
+.img_text p
+{
+    font-size: 14px;
+    margin-left: 123px;
+    color: lightgray;
+}
+
+
+.img_text2{
+    
+    margin-top: 10px;
+    height: 370px;
+    width: 310px;
+    float: left;
+}
+
+.img_text2 p{
+    font-size: 14px;
+    color: lightgray;
+}
+
+.img_text2 h2{
+    color: white;
+    font-size: 25px;
+    float: left;
+}
+
+.AboutSection
+{
+    margin-top: 230px;
+    border: 2px solid black;
+    border-top: 1px solid darkgrey;
+    background:url('Images/bg.jpg');
+    width: 193vh;
+    height:500px;
+    margin-top: 0px !important;  
+}
+
+.About_Me
+{
+  
+    height:500px;
+    width:40%;
+    margin-left: 123px;
+    color: white;
+}
+
+
+.About_Me img
+{
+    height: 350px;
+    width: 250px;
+}
+
+.About_Me h4{
+   font-size: 28px;   
+}
+
+.abt_text
+{
+    height: 350px;
+    width: 250px;
+    font-size: 14px;
+    float: right;
+    color: gainsboro;
+}
+
+.list{
+   
+    height: 190px;
+    line-height: 40px;
+    width: 120px;
+    float: left;
+}
+
+.list ul li{
+    list-style-type: square;
+    color: coral;
+}
+
+.photo{
+
+    height:500px;
+    width:40%;
+    float: right;
+    font-size: 28px;
+    color: white;
+}
+
+.photo1{
+    width:120px;
+    height:120px;
+}
+
+footer p{
+    color: gray;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+
+.font ul{
+    float: right;
+    width:250px;
+    line-height: 5px;
+}
+
+.font ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.fa{
+    background-color: coral;
+    color: white;
+    width:50px;
+    height:30px;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 50px;
+
+}
